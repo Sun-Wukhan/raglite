@@ -1,0 +1,21 @@
+{
+  "author": "Navid Khan",
+  "bin": {
+    "raglite": "src/cli.js"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2"
+  },
+  "description": "A tiny local RAG engine for markdown notes. Open-weight embeddings, no API keys, runs offline.",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "name": "raglite",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
